@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --begunok-duration: 0ms;
+  --from-width: 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  width: 100px;
+}
+
+.back{
+  position: relative;
+}
+
+.start-video {
+  width: 20px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.pause-video {
+  width: 20px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.reload-video {
+  width: 20px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+#my-video {
+  display: none;
+}
+
+.stop-video{
+  animation: none !important;
+}
+
+@keyframes sliderMove {
+  from {width: var(--from-width); }
+  to { width:100% }
+}
+
+#begunok {
+  background-color: rgb(40, 125, 204);
+  width: 0%;
+  height: 6px;
+  border-radius: 20px;
+}
+
+.animation{
+  animation: sliderMove var(--begunok-duration); 
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+
+input[type="range"] {
+  border-radius: 20px;
+  height: 5px;
+  cursor:pointer
+}
+
+
+.box {
+  width: 454px;
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+  border-radius: 20px;
+  height: 6px;
+}
+
+.video-controll {
+  display: flex;
+  width: 480px;
+  align-items: center;
+  position: relative;
+  bottom: 70px;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.display:hover > .video-controll {
+  visibility: visible;
+}
+
+
+.video-params {
+  display:flex;
+  
 }

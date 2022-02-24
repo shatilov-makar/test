@@ -1,0 +1,17 @@
+<svg width="225" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" fill="#000000" transform="translate(0,225) scale(0.10000000149011612,-0.10000000149011612) ">
+   <path stroke="null" fill="#000000" id="svg_2" d="m242.257937,2231.999999c-23,-11 -43,-33 -57,-62l-23,-44l0,-1001c0,-960 1,-1002 19,-1042c36,-78 106,-101 193,-60c93,43 1702,977 1731,1005c58,55 57,139 -1,195c-27,26 -1632,958 -1727,1003c-60,28 -88,30 -135,6zm924,-571c466,-270 857,-497 867,-507c25,-22 24,-36 -3,-61c-27,-23 -1669,-971 -1711,-987c-60,-23 -57,-69 -57,1017c0,662 3,995 10,1008c6,10 19,19 28,19c10,0 400,-220 866,-489z"/>
+  </g>
+  <polyline stroke="#000" transform="rotate(4.037710666656494 25.49999999999998,6.953124999999968) " stroke-linecap="round" id="svg_3" points="25.5,6.953125 25.5,6.953125 " stroke-width="1.5" fill="none"/>
+  <path id="svg_11" d="m97.661344,96.018216" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="#000000"/>
+  <path id="svg_13" d="m82.8227,91.50211c1.93547,1.93547 5.16127,5.16126 4.91886,4.62651c0.24241,0.53475 -6.85434,-6.56199 -4.91886,-4.62651z" stroke-width="null" stroke="#ffffff" fill="#bf8d8d"/>
+  <path id="svg_14" d="m27.33906,10.85729l-0.2424,205.91597l180.64438,-103.22536l-180.40198,-102.69061z" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="#ffffff"/>
+ </g>
+</svg>
